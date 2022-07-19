@@ -1,0 +1,20 @@
+{
+  "name": "sample-oauth-generate-token",
+  "version": "1.0.0",
+  "description": "Qualquer coisa entre em contato => igorjunio2015@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r dotenv/config ./src/main.js"
+  },
+  "author": "Igor Junio dos Santos Melo",
+  "license": "MIT",
+  "dependencies": {
+    "@googleapis/docs": "^0.2.0",
+    "google-spreadsheet": "^3.1.15",
+    "googleapis": "^89.0.0",
+    "npmlog": "^6.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
