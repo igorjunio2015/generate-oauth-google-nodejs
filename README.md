@@ -56,6 +56,6 @@ Para usar __Gerador de token OAuth para projetos Google__, siga estas etapas:
     http SHEETS Authorize this app by visiting this url: https://accounts.google.com/o/oauth2/v2/auth?access_type=offline.....0%3Aoob
     Enter the code from that page here:
     ```
-4. Você irá acessar a URL acima, autenticar seu usuário e copiar o código que será fornecido e copiar no console. Após isso será alimentado o arquivo ```src\services\config\auth\client-secret.json``` com os dados dessa sessão, e com isso você não precisará mais realizar autenticação para essas credencias (não manualmente hehehe).
-<br>
-5. Após tudo isso é só criar as funções de consumo conforme o arquivo ```src\main.js``` mostra de exemplo.
+4. Você irá acessar a URL acima, autenticar seu usuário e copiar o código que será fornecido e copiar no console. Após isso será alimentado o arquivo ```src\services\config\auth\client-secret.json``` com os dados dessa sessão, e com isso você não precisará mais realizar autenticação para essas credencias (não manualmente hehehe). <br><br>
+
+5. Após tudo isso é só criar as funções de consumo, dentro do arquivo ```src\main.js``` tem um GET de exemplo. Agora é só incorporar ao seu projeto e utilizar sem problemas.
